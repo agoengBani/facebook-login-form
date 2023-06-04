@@ -29,26 +29,28 @@ main {
 }
 
 .container {
-   width: 45%;
+   width: 35%;
    justify-content: left;
-   margin-right: 15px;
-   padding-top: 50px;
-   padding-right: 50px;
+   margin-right: 65px;
+   padding-top: 49px;
+   padding-right: 10px;
 }
 
 .container img {
    width: 300px;
    height: 110px;
    padding-left: 0px;
-   display: relative;
-   right: 100px;
+   display: flex;
+   position: relative;
+   right: -5px;
+   top: 10px;
    margin: 5px 0 0 0;
 }
 
 .container .under-fb {
    font-size: 28px;
    padding: 0;
-   margin: 0 0 0 30px;
+   margin: 0 0 0 31px;
    color: #1c1e21;
 }
 
@@ -163,26 +165,35 @@ nav {
    justify-content: center;
    align-items: center;
    margin-top: 180px;
-   font-size: 18px;
+   font-size: 17px;
+   position: absolute;
+   bottom: -70px;
 }
 
 nav .nav {
    width: 975px;
    margin-top: 10px;
-   padding-top: 10px;
+   padding-top: 0px;
 }
 
 nav .nav-top {
    display: flex;
    flex-direction: column;
    width: 100%;
+   font-size: 24px;
 }
 
 nav .nav-top .list-lang a {
    text-decoration: none;
    color: #8a8d91;
-   padding-right: 5px;
+   padding-right: 4px;
    font-size: 12px;
+}
+
+nav .nav-top .list-lang button {
+   width: 30px;
+   border: 1px solid #c7c7c7;
+   border-radius: 1px;
 }
 
 nav .nav-line {
